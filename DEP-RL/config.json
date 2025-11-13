@@ -1,0 +1,35 @@
+{
+  "env": {
+    "id": "myoChallengeSoccerP1-v0",
+    "max_episode_steps": 500,
+    "env_wrappers": ["Monitor"]
+  },
+  "run": {
+    "seed": 42,
+    "working_dir": "./runs/soccer_deprl",
+    "total_timesteps": 500000,
+    "checkpoint_interval": 5000
+  },
+  "parallel": {
+    "sequential": 2,
+    "parallel": 4
+  },
+  "agent": {
+    "policy": "MLP",
+    "hidden_sizes": [256, 256],
+    "lr": 3e-4,
+    "batch_size": 512,
+    "gamma": 0.99
+  },
+  "dep": {
+    "use_dep": true,
+    "plasticity_lr": 0.01,
+    "coupling": 0.8,
+    "motor_scale": 0.5,
+    "noise_scale": 0.0
+  },
+  "logging": {
+    "log_interval": 1000,
+    "save_video": false
+  }
+}
