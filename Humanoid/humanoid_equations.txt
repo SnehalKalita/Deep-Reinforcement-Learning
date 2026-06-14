@@ -1,0 +1,69 @@
+=== HUMANOID SYMBOLIC POLICY ===
+
+Joint 0:
+  Features (x0 to x4): [ 33  43 216  26  62]
+  Equation: 0.12337059 - (-0.1042823)*(x2/(-3.654885) - x4)
+
+Joint 1:
+  Features (x0 to x4): [246  29 193 265   5]
+  Equation: (x1*0.11564846 + x4)*0.25627956
+
+Joint 2:
+  Features (x0 to x4): [ 30 253 197 251  62]
+  Equation: (-x3 + x4)*(-0.030976996)
+
+Joint 3:
+  Features (x0 to x4): [ 28 288 227 216 215]
+  Equation: (5.1676006 - x1)*(-0.011681875)
+
+Joint 4:
+  Features (x0 to x4): [209  40 210  61 192]
+  Equation: (-x3 - 1.0370333)*(-0.07950658)
+
+Joint 5:
+  Features (x0 to x4): [247 216 210  33  61]
+  Equation: 0.12878247 + (x2 - x4)*(-0.04088865)
+
+Joint 6:
+  Features (x0 to x4): [247 209 191 251 216]
+  Equation: 0.21956709 - (-0.023408892)*(x1 + x2 + x4)
+
+Joint 7:
+  Features (x0 to x4): [258 209 227  18 215]
+  Equation: x1*0.059658237
+
+Joint 8:
+  Features (x0 to x4): [ 36 209  62  61 262]
+  Equation: (x1 - (x3 + 1.6468732))*(-0.039378975)
+
+Joint 9:
+  Features (x0 to x4): [210 253  16 234 228]
+  Equation: 0.18258457 - 0.026409496*(-(-4.5775857)*x2 + x3 + x4)
+
+Joint 10:
+  Features (x0 to x4): [259  41 228 210  61]
+  Equation: x4*0.10002501 + (x2 + x3)*(-0.023039188) + 0.26446873
+
+Joint 11:
+  Features (x0 to x4): [ 18  35  26 251  62]
+  Equation: x4*(-0.08663779)
+
+Joint 12:
+  Features (x0 to x4): [ 28  18 246 227 195]
+  Equation: (-x0 - x3 - 6.068307)*(-0.021185746)
+
+Joint 13:
+  Features (x0 to x4): [233 204 252  18 248]
+  Equation: x3*0.11047772 + 0.1152658
+
+Joint 14:
+  Features (x0 to x4): [247 193 266  32  18]
+  Equation: (x4 - (x2 + 2.3414917))*0.0433961
+
+Joint 15:
+  Features (x0 to x4): [228 227 263 213  16]
+  Equation: (x0 - (-1)*4.674776*x4)*(-0.018973673)
+
+Joint 16:
+  Features (x0 to x4): [290 258  44 268 228]
+  Equation: (x3 + 1.1468812)*x2*0.011016071 - 0.040828206
